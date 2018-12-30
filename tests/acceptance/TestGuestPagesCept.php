@@ -5,6 +5,7 @@ $I->wantTo('Открываем главную страницу site/index');
 $I->amOnPage('/');
 
 $I->see('Welcome!!!', 'h1');
+
 $I->seeLink('Join', '/site/join');
 $I->seeLink('Login', '/site/login');
 $I->seeLink('About', '/site/about');
