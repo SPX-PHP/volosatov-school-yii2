@@ -8,5 +8,5 @@ actor: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://scholl.loc/
+            url: http://school.loc/
         - \Helper\Acceptance
