@@ -1,0 +1,68 @@
+2019-01-03 15:24:48 [127.0.0.1][-][-][error][ReflectionException] ReflectionException: Class yii\debug\Module does not exist in E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\di\Container.php:428
+Stack trace:
+#0 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\di\Container.php(428): ReflectionClass->__construct('yii\\debug\\Modul...')
+#1 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\Modul...')
+#2 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#3 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#4 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#5 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('debug')
+#6 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 E:\sites\volosatov-school-yii2\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 E:\sites\volosatov-school-yii2\web\index.php(8): yii\base\Application->__construct(Array)
+#11 {main}
+2019-01-03 15:24:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'seric-school.seric'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://seric-school.seric/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6,pl;q=0.5'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;e:\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;e:\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;e:\\ospanel\\modules\\php\\PHP-7.2-x64;e:\\ospanel\\modules\\imagemagick;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\git;e:\\ospanel\\modules\\git\\bin;e:\\ospanel\\modules\\git\\mingw\\bin;e:\\ospanel\\modules\\git\\cmd;e:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;e:\\ospanel\\modules\\database\\PostgreSQL-10.5-x64\\bin;e:\\ospanel\\modules\\database\\PostgreSQL-10.5-x64\\lib;e:\\ospanel\\modules\\http\\Apache-PHP-7-x64+Nginx-1.14\\bin;e:\\ospanel\\modules\\http\\Apache-PHP-7-x64+Nginx-1.14;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\ProgramData\\Anaconda3;C:\\ProgramData\\Anaconda3\\Library\\mingw-w64\\bin;C:\\ProgramData\\Anaconda3\\Library\\usr\\bin;C:\\ProgramData\\Anaconda3\\Library\\bin;C:\\ProgramData\\Anaconda3\\Scripts;C:\\opencv\\build\\\\bin;C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\tools;C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Android\\ndk;C:\\cygwin64\\bin;C:\\Program Files\\Java\\jdk-9.0.4\\bin;C:\\ant\\bin;C:\\MinGW\\bin\\;C:\\SQLite\\;C:\\Ruby23-x64\\bin;E:\\OSPanel\\modules\\php\\PHP-7.1-x64;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Go\\bin;C:\\ProgramData\\Miniconda3;C:\\ProgramData\\Miniconda3\\Scripts;C:\\ProgramData\\Miniconda3\\Library\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\Program Files\\maven\\\\bin;C:\\opencv\\build\\java\\x64;C:\\Program Files\\Perforce\\;C:\\Program Files\\CMake\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2017.3\\bin;C:\\Program Files (x86)\\gnupg\\bin;C:\\Takipi\\lib;C:\\Takipi\\lib32;C:\\Gradle\\gradle-4.6\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\composer\\;C:\\Program Files\\maven\\\\bin;C:\\cygwin64\\bin\\sh.exe;C:\\opencv\\build\\\\bin;C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\tools;C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Android\\ndk;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\MinGW\\bin;C:\\Program Files\\Java\\jdk-9.0.4\\bin;C:\\opencv\\build\\\\java\\x64;C:\\Program Files\\Microsoft VS Code\\bin;C:\\IntelPython3;C:\\IntelPython3\\Scripts;C:\\OSPanel\\modules\\php\\PHP-7.2-x64;e:\\OSPanel\\userdata\\config\\path.txt;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Program Files\\JetBrains\\PhpStorm 2018.3\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'seric-school.seric'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/sites/volosatov-school-yii2/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/sites/volosatov-school-yii2/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/sites/volosatov-school-yii2/web/index.php'
+    'REMOTE_PORT' => '20049'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546518288.378
+    'REQUEST_TIME' => 1546518288
+    'argv' => [
+        0 => 'r=site%2Findex'
+    ]
+    'argc' => 1
+]
