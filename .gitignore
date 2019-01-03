@@ -9,3 +9,11 @@ vendor
 out
 gen
 temp
+### Yii template
+assets/*
+!assets/.gitignore
+/runtime/*
+!/runtime/.gitignore
+/data/*.db
+
+
