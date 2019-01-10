@@ -27,16 +27,6 @@
 
 	<?php $this->endBody(); ?>
 	</body>
-	<div class="container">
-		<div class="grid">
-			<div class="grid_element">1</div>
-			<div class="grid_element">2</div>
-			<div class="grid_element">3</div>
-			<div class="grid_element">4</div>
-			<div class="grid_element">5</div>
-			<div class="grid_element">6</div>
-			<div class="grid_element">7</div>
-		</div>
-	</div>
+	<?= $content ?>
 	</html>
 <?php $this->endPage(); ?>

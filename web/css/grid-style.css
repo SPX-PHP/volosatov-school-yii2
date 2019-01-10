@@ -13,7 +13,9 @@ body {
 
 .grid {
 	display: grid;
-	grid-template-columns: 150px 1fr 150px;
+	/*grid-template-columns: 150px min-content max-content 150px;*/
+	grid-template-columns: 150px minmax(100px, 1fr) max-content 150px;
+	grid-template-rows: 150px minmax(100px, 1fr) max-content 150px;
 }
 
 .grid_element {
