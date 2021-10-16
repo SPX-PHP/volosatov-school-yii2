@@ -1,0 +1,1 @@
+# Урок 1. CSS Grid Layout. Основная терминология и первая раскладка [ссылкаа YouTube](https://www.youtube.com/watch?v=xl-dhFPA_pY&feature=push-u-sub&attr_tag=dxdU5yIi8FuNK0lu%3A6)

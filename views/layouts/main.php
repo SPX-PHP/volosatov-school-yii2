@@ -44,29 +44,7 @@
 				</button>
 				<a class="navbar-brand page-scroll" href="#page-top"><img src="images/logo.png" alt="Sanza theme logo"></a>
 			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="hidden">
-						<a href="#page-top"></a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#about">About</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#services">Services</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#portfolio">Portfolio</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#team">Team</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</div>
+
 			<!-- /.navbar-collapse -->
 		</div>
 		<!-- /.container-fluid -->
@@ -85,7 +63,7 @@
 	</header>
 	<?php
 		NavBar::begin([
-			'brandLabel' => '<img src="images/logo.png" alt="Sanza theme logo">',
+			'brandLabel' => '<img src="/web/images/logo.png" alt="Sanza theme logo">',
 			'brandUrl' => Yii::$app->homeUrl,
 			'options' => [
 				'class' => 'navbar navbar-default navbar-fixed-top'
@@ -97,7 +75,9 @@
 				['label' => 'Services', 'url' => ['#' => 'services']],
 				['label' => 'Portfolio', 'url' => ['#' => 'portfolio']],
 				['label' => 'Team', 'url' => ['#' => 'team']],
-				['label' => 'Contact', 'url' => ['#' => '#contact']]
+				['label' => 'Contact', 'url' => ['#' => '#contact']],
+				['label' => 'GSS Grid', 'url' => '/grid']
+
 			],
 			'options' => ['class' => 'navbar-nav navbar-right']
 		];

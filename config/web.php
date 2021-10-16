@@ -18,6 +18,18 @@
 						),
 					),
 				)
-			)
+			),
+			'request' => [
+				'baseUrl' => '',
+			],
+			'urlManager' => [
+				'enablePrettyUrl' => true,
+				'showScriptName' => false,
+				'rules' => [
+					'' => 'site/index',
+					'<action>' => 'site/<action>',
+					'<action>' => 'grid/<action>',
+				],
+			],
 		]
 	];
